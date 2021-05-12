@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .title {
+    @apply text-6xl font-bold;
+    /* @apply leading-[1.125];*/
+  }
+}
